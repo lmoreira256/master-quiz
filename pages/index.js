@@ -6,9 +6,12 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 import db from '../db.json';
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -27,36 +30,34 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
 
       <Head>
-        <title>Master Quiz</title>
+        <title>{db.title}</title>
       </Head>
 
       <QuizContainer>
 
+        <QuizLogo />
+
         <Widget>
           <Widget.Header>
-            <h1>O Master Quiz</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>
-              Este quiz foi feito para propor uma reflexão séria.
-              Todas as perguntas devem ser respondidas com muita sinceridade.
-            </p>
+            <p>{db.description}</p>
 
             <form onSubmit={(event) => {
               event.preventDefault();
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input
-                onChange={(event) => {
-                  setName(event.target.value);
-                }}
+              <Input
+                name="userName"
+                onChange={(event) => setName(event.target.value)}
                 placeholder="Qual o seu nome meu chapa?"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Bora? ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

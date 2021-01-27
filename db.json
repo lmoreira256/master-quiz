@@ -1,7 +1,7 @@
 {
-    "bg": "https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "https://i.redd.it/9zjzrb0bhwl41.gif",
+    "title": "🤔 Master Quiz",
+    "description": "Este quiz foi desenvolvido com o objetivo de promover uma reflexão. Todas as perguntas devem ser respondidas com sinceridade.",
     "questions": [{
             "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
             "title": "Como fazer um seletor por id via CSS?",
@@ -30,10 +30,10 @@
     ],
     "theme": {
         "colors": {
-            "primary": "#311D3F",
-            "secondary": "#522546",
-            "mainBg": "#88304E",
-            "contrastText": "#FFF",
+            "primary": "#cb997e",
+            "secondary": "#cb997e",
+            "mainBg": "#fff1e6",
+            "contrastText": "#000000",
             "wrong": "#FF5722",
             "success": "#4CAF50"
         },
