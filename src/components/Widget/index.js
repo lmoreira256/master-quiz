@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
-  margin: 24px 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
@@ -13,7 +14,6 @@ const Widget = styled.div`
     line-height: 1;
     margin-bottom: 0;
   }
-
   p {
     font-size: 14px;
     font-weight: 400;
@@ -27,23 +27,20 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
-
+  
   * {
-    margin: 0
+    margin: 0;
   }
 `;
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
-
   & > *:first-child {
     margin-top: 0;
   }
-
-  &>*:last-child {
+  & > *:last-child {
     margin-bottom: 0;
   }
-
   ul {
     list-style: none;
     padding: 0;

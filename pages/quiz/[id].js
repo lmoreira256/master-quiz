@@ -4,12 +4,12 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import QuizScreen from '../../src/screens/Quiz';
 
-export default function QuizDaGaleraPage({ db }) {
+export default function QuizDaGaleraPage({ dbExterno }) {
   return (
-    <ThemeProvider theme={db.theme}>
+    <ThemeProvider theme={dbExterno.theme}>
       <QuizScreen
-        externalQuestions={db.questions}
-        externalBg={db.bg}
+        externalQuestions={dbExterno.questions}
+        externalBg={dbExterno.bg}
       />
     </ThemeProvider>
   );
