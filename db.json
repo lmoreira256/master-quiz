@@ -1,32 +1,56 @@
 {
-    "bg": "https://i.redd.it/9zjzrb0bhwl41.gif",
-    "title": "🤔 Master Quiz",
-    "description": "Este quiz foi desenvolvido com o objetivo de promover uma reflexão. Todas as perguntas devem ser respondidas com sinceridade.",
+    "bg": "https://s1.1zoom.me/b5367/24/Beer_Mug_Highball_glass_520532_1920x1080.jpg",
+    "title": "Master Quiz 🍺",
+    "description": "O quiz que separa os jovens dos MESTRES CERVEJEIROS!!! 🧔",
     "questions": [{
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
-            "description": "Essa é pra aquecer",
+            "image": "https://i.pinimg.com/originals/13/e7/c0/13e7c0a5af43287383abdadb6fb35eb6.gif",
+            "title": "#1 - Quais são as três famílias de cervejas?",
+            "description": "Básico do básico.",
             "answer": 2,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "Stout, Abadia e Pilsen.",
+                "Clara, Escura e Turva.",
+                "Larger, Ale e Lambic.",
+                "Bonita, Boa e Feia."
             ]
         },
         {
-            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-            "title": "Como fazer um background gradiente com css?",
-            "description": "Faz tempo em haha",
+            "image": "https://acegif.com/wp-content/uploads/2020/06/beer.gif",
+            "title": "#2 - Quais são os ingredientes básicos da cerveja?",
+            "description": "Essa tem que saber ein!",
+            "answer": 2,
+            "alternatives": [
+                "Terra, Ar, Água, Fogo e Coração.",
+                "Água, malte, coentro e açafrão.",
+                "Água, malte, lúpulo e levedura."
+            ]
+        },
+        {
+            "image": "https://4.bp.blogspot.com/-meZm6rT8j7Q/W3c2EBN2z2I/AAAAAAAAfIo/6_FHHis7zksE1sACM3hYe87z9Q2hsMlZwCLcBGAs/s1600/Cerveja%2Bcomo%2Bescolher%2Bmarcas%2Bdicas%2Bbrinde%2Bcheers%2Bcomemoracao%2Balegria%2Bfelicidade%2Bingredientes.gif",
+            "title": "#3 - Quando a cerveja surgiu?",
+            "description": "Essa é pra quem estudou!",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
-            ]
+                "Há cerca de 6 mil anos, na Suméria.",
+                "Na República Tcheca, em 1842.",
+                "Em 1516, na Baviera."
+            ] 
+        },
+        {
+            "image": "https://media0.giphy.com/media/mxmvguSsjmfhvNTeDK/giphy.gif",
+            "title": "#4 - Quais são as principais escolas cervejeiras do mundo?",
+            "description": "Ta fácil essa!",
+            "answer": 1,
+            "alternatives": [
+                "Brasileira, Inglesa e Alemã.",
+                "Inglesa, Belga e Alemã.",
+                "Norte-americana, Argentina e Alemã."
+            ] 
         }
     ],
     "external": [
-        ""
+        "https://musicquiz.sidibecker.vercel.app",
+        "https://pato-quiz-nextjs.theedouglasam.vercel.app/"
     ],
     "theme": {
         "colors": {
